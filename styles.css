@@ -1,0 +1,188 @@
+@font-face {
+    font-family: starwars;
+    src: url("./REDFIVE_.TTF");
+}
+
+body {
+    margin: 0px;
+    
+}
+
+.hero{
+    background-image: url("./galaxy.webp");
+    background-size: 100% auto;
+    padding: 30px;
+}
+
+.card-section {
+    margin: 0;
+    background-color: aquamarine;
+    padding: 50px;
+    border-bottom: 10px solid rgb(62, 203, 156);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb375;
+    color: #2b2839;
+    padding: 20px;
+    width: 400px;
+    margin: 0px auto 0px auto;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover {
+    background-color: #ffc291;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myImg{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    border-radius: 100px;
+}
+
+
+.coolborder {
+    border-bottom: 10px solid #342843;
+}
+
+
+.apply-btn {
+    background-color: white;
+    font-family: starwars;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 6px 12px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title{
+    font-family: starwars;
+    color: rgb(133, 212, 255);
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(75, 112, 133);
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+#sw-logo {
+    width: 300;
+}
+
+.terms {
+    font-family: starwars;
+    text-align: center;
+}
+
+.birthday-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Happy Monkey', cursive;
+    /*background-color: rgb(160, 199, 255);*/
+    background: linear-gradient(rgb(160, 199, 255),#EFB0C9);
+    padding: 30px;
+    color:white;
+    text-shadow: 0px 0px 2px black;
+    border-bottom: 10px solid rgb(75, 120, 185);
+}
+
+#bff-img {
+    border-radius: 50%;
+    width: 150;
+    border: 10px solid pink;
+}
+
+.pinkbg{
+    padding: 5px;
+    border-radius: 40px;
+    background-color:pink;
+}
+
+.gift1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.giftimg {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: 5px solid white;
+    background: url("./gift-cover.jpg");
+    background-size: cover;
+}
+
+.gifttitle {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.giftsubtitle {
+    margin-top: 0px;
+}
+#giftimg-happy:hover {
+    background-image: url("./happy.gif")
+}
+
+#giftimg-hot:hover {
+    background-image: url("./hot.gif")
+}
+
+#giftimg-genius:hover {
+    background-image: url("./genius.gif")
+}
+
+#giftimg-badass:hover {
+    background-image: url("./badass.gif")
+}
+
+.rect{
+    height: 200px;
+}
+
+.rect:hover{
+    background-image: url("./cheers.gif")
+}
+
+.myFooter{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-style: italic;
+}
+
+a {
+    color: white;
+    margin-top: 0px;
+}
+
+.course{
+    margin-bottom: 0px;
+}
